@@ -6,7 +6,7 @@ import numpy as np
 # Read the CSV file
 @st.cache_data
 def load_data():
-    df = pd.read_csv('C:\\Python\\Strava\\IntervalsICU\MultiAthlete_Activities_Summary_Updated.csv')
+    df = pd.read_csv('MultiAthlete_Activities_Summary_Updated.csv')
     return df
 
 def create_comparison_chart(filtered_df, activity_type):
